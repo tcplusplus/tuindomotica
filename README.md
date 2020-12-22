@@ -10,4 +10,15 @@ Het runt een webserver en via:
 Er zit ook nog de code in om naar `http://<ip-arduino>` te gaan en dan krijg je een simpele website. Dit gaan we niet gebruiken in dit voorbeeld. We gaan deze website op een andere plaats zetten. Omdat deze links via een browser kunnen opgeroepen worden is dit mogelijk. zolang het device vanwaar je de website opent ook via het netwerk aan de arduino kan.
 
 ## Index.html
+Dit een website die de status toont en de knoppen weergeeft om aan of uit te zetten.
+Deze website wordt door gihub gehost en kun je naartoe via deze link [Tuin Domotica](https://tcplusplus.github.io/tuindomotica/)
+
+Of via deze QR code:
+![alt text](media/qr-code.png)
+
+## microcontroller.js
+Is de javascript file die de acties/status van de leds gaat oproepen wanneer er op een knop geklikt wordt
+
+## style.css
+Is om de knoppen en media een plaats te geven op de website.
 
