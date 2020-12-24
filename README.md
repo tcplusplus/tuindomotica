@@ -11,7 +11,23 @@ Er zit ook nog de code in om naar `http://<ip-arduino>` te gaan en dan krijg je 
 
 ## Index.html
 Dit een website die de status toont en de knoppen weergeeft om aan of uit te zetten.
-Deze website wordt door gihub gehost en kun je naartoe via deze link [Tuin Domotica](https://tcplusplus.github.io/tuindomotica/)
+Deze website gaat om de 2s `http://<ip-arduino>/S` oproepen en kijken wat er in deze pagina staat. Staat er een 0 of een 1 in.
+Als je op 1 van de 2 knoppen klikt worden de andere calls opgeroepen.
+Deze website wordt door github gehost en kun je naartoe via deze link [Tuin Domotica](https://tcplusplus.github.io/tuindomotica/)
+Via github hosting is enkel bereikbaar via `https`. Dit heeft als nadeel dat de website zelf geen calls kan maken naar de arduino omdat deze enkel `http` ondersteund. Dit is een security maatregel. Hier zijn een aantal opties voor:
+
+### Host de pagina op een website die wel http toelaat
+Een voorstel om de website op je telenet te hosten als dit nog steeds mogelijk is. Een andere optie is `https://www.freehosting.com/free-hosting.html`
+
+### Github laat je toe een eigen dns te linken naar je pagina
+Ga naar de settings tab in github en geef een eigen dns op:
+`https://github.com/tcplusplus/tuindomotica/settings`
+
+## Make een android app van de pagina
+Je kunt nu op je gsm naar deze wbsite gaan iedere keer je domotica wilt aanspreken. Je kunt dan installen dat deze pagina als snelkoppeling op je telefoon komt.
+`https://natomasunified.org/kb/add-website-to-mobile-device-home-screen/`
+Maar je kunt er ook een nativa Android app van maken via deze website: `https://gonative.io/`
+
 
 Of via deze QR code:
 ![alt text](media/qr-code.png)

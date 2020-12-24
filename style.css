@@ -20,3 +20,16 @@ body, html {
   left: 5%;
   top: 10%;
 }
+
+.footer {
+  position: absolute;
+  bottom: 5%;
+  color: whitesmoke;
+  width: 90%;
+  left: 5%;
+  text-align: center;
+}
+
+a {
+  color: whitesmoke !important;
+}
